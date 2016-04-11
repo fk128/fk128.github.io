@@ -1,0 +1,29 @@
+# Site settings
+title: Fahdi Kanavati
+description: ""
+
+
+# Build settings
+markdown: kramdown
+
+#permalink: pretty
+permalink: /:title/
+
+collections:
+  short-films:
+    output: true
+
+
+github_username: fk128
+
+# external-links
+external-links:
+  - imdb: http://www.imdb.com/name/nm5425126/
+  - google_scholar: https://scholar.google.co.uk/citations?user=IL0v9VMAAAAJ&hl=en
+  - dblp: http://dblp.uni-trier.de/pers/hd/k/Kanavati:Fahdi
+
+# Configs
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "gulpfile.js", "package.json", "node_modules", ".git","*.sh"]
+
+gems:
+  - jekyll-redirect-from

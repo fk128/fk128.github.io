@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content fadeIn animated">
+      <div class="container">
+      {{ content }}
+      </div>
+       <div class="push"></div>
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+<style type="text/css">.page-content {
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+
+}</style>
+</html>

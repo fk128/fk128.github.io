@@ -1,0 +1,64 @@
+---
+layout: default
+title: Fahdi Kanavati
+---
+
+<div class="hom">
+
+<div class="row text-center">
+<div class="col-lg-12">
+         <img class="fadeIn animated" src="{{"/assets/preloader_gray.gif" | prepend: site.baseurl}}">
+                  <h1 class="text-center element"></h1>      
+          <h4 class="text-muted fadeInUp animated">Site under construction<span class="dots swing animated">!</span></h4>
+              
+</div>
+</div>
+</div>
+
+
+<style type="text/css">
+.dots {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+</style>
+
+
+<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/typed.min.js" | prepend: site.baseurl }}"></script>
+<script>
+    $(function(){
+        $(".element").typed({
+            strings: ["Hello there."],
+            typeSpeed: 0
+        });
+    });
+</script>
+
+
+
+

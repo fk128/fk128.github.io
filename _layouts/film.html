@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head-film.html %}
+
+<body id="page-top">
+<!-- NAV -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="{{ '/short-films' | prepend: site.base}}"><i class="fa fa-arrow-left"></i></a>
+            <a class="navbar-brand page-scroll" href="#page-top">{{ page.title }}</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {% for navlinks in page.nav %}
+  <li>
+    <a class="page-scroll" href="{{ navlinks.link }}" {% if navlinks.external %} {{'target="_blank"'}} {% endif%}>
+      {{ navlinks.title}}
+    </a>
+  </li>
+{% endfor %}
+               
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+  <!-- /NAV -->
+
+<!-- <header style="background-image: url('{{page.header-img}}');"> -->
+<header >
+<img class="img-responsive" src="{{page.header-img}}">
+  <!--   <div class="header-content">
+        <div class="header-content-inner">
+        </div>
+    </div> -->
+</header>
+
+<section class="">
+	<div class="container">
+		<p> Synopsis: <strong>{{ page.synopsis }}</strong></p>
+  <p>{% if page.running-time %}<p>Running time: <strong>{{ page.running-time }}</strong></p>{% endif %}</p>
+   <p>{% if page.budget %}<p>Budget: <strong>{{ page.budget }}</strong></p>{% endif %}</p>
+   <p>{% if page.production %}<p>Production: <strong>{{ page.production }}</strong></p>{% endif %}</p>
+
+	</div>
+
+
+</section>
+  <hr style="max-width:300px;">
+  <section id="About">
+   <div class="container">
+  {{ content }}
+  </div>
+  </section>
+ <hr style="max-width:300px;">
+
+<section id="credits">
+    <div class="container">
+        <div class="row">
+          {% for credit-section in page.credits %}
+            <div class="col-lg-6 col-xs-6 text-center">
+
+                <div class="service-box">
+
+                    <h1 class="text-muted">{{ credit-section.section-title}}</h1>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-xs-6 text-center">
+                <div class="service-box">
+                     {% for person in credit-section.people %}
+                      <dl>
+                      {% if person.role %}
+                      <dd>{{person.role}}</dd>
+                      {% endif %}
+                        <dt>{{person.name}}</dt>
+                      </dl>
+                
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <hr style="max-width:300px;">
+        {% endfor %}
+       
+       
+    </div>
+</section>
+
+
+
+
+<section class="no-padding" id="stills">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+         {% for still in page.stills %}
+            <div class="col-lg-6 col-sm-12">
+               
+                   <a href="{{ still.link }}"> <img src="{{ still.link }}" class="img-responsive" alt=""></a>
+                    
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+
+</body>
+
+
+{% include scripts-film.html %}
+<script type="text/javascript">
+  var gallery = $('#stills');
+gallery.poptrox({usePopupNav:true});
+</script>
+
+</html>
