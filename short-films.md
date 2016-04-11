@@ -9,7 +9,7 @@ nav-order: 5
 <h2> Short Films</h2>
 {% assign short-films = site.short-films | sort: 'production-date' | reverse %}
 {% for short-film in short-films %}
-{% if short-film.published == null or short-film.published == true  %}
+{% if short-film.layout == 'film' and (short-film.published == null or short-film.published == true)  %}
 <div class="row">
 
   <h3 class="text-uppercase"><a href="{{ short-film.url }}">{{ short-film.title }}</a><span class=""> ({{ short-film.production-year }})</span></h3>
