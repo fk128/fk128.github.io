@@ -5,6 +5,7 @@ nav: true
 nav-order: 5
 ---
 
+Credits: director, director of photography, writer, editor, and visual effects compositor, among other things.
 
 <h2> Short Films</h2>
 {% assign short-films = site.short-films | sort: 'production-date' | reverse %}
