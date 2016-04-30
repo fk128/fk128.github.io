@@ -11,6 +11,8 @@ nav:
    link: "#credits"
  - title: Stills
    link: "#stills"
+ - title: VFX
+   link: "vfx"
 credits:
  - section-title: CAST
    people: 
@@ -37,7 +39,7 @@ credits:
      - role: Music by
        name: Cylink
      - role: Associate Producer
-       name: Farah Shair
+       name: Farah Shair </br> Tiberiu Chis
      - role: Lights/Boom Operator
        name: Peter Owen Brook
      - role: Stage Lights Technician

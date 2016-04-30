@@ -39,9 +39,9 @@
     <!-- /.container-fluid -->
 </nav>
   <!-- /NAV -->
+<!-- <header class="header" style="background-image: url('{{page.header-img}}'); background-repeat: no-repeat; background-size: cover;"> -->
+<header class="header parallax-window" data-parallax="scroll" data-ios-fix="true" data-image-src="{{page.header-img}}">
 
-<header class="header" style="background-image: url('{{page.header-img}}'); background-repeat: no-repeat; background-size: cover;">
-<!-- <header class="header"> -->
 <!-- <img class="img-responsive" src="{{page.header-img}}"> -->
 <!--     <div class="header-content">
 
@@ -87,7 +87,6 @@ html, body {
 
   font-size:0.5em;
   display:block;
-  box-shadow:0px 0px 5px 0px #000;
 
 }
 
@@ -159,6 +158,13 @@ $(window).scroll( function(){
   //no scrolling = 1, half-way up the page = 0
   $('.arrow-wrap').css('opacity', position);
 
+});
+
+</script>
+
+<script type="text/javascript">
+  $(window).load(function() {
+  $(".twentytwenty-container").twentytwenty();
 });
 
 </script>

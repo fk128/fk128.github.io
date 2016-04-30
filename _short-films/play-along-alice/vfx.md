@@ -33,9 +33,3 @@ Use the slider to view before and after image comparisons of some shots.
   <img src='../images/playAlongVFX_still4_after.jpeg'>
 </div>
 </section>
-<script type="text/javascript">
-  $(window).load(function() {
-  $(".twentytwenty-container").twentytwenty();
-});
-
-</script>
