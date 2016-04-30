@@ -5,12 +5,15 @@ production-year:   2016
 production-date: 2016-02
 synopsis: Alice in horrorland.
 header-img: images/PlayAlong_Still5.png
-thumbnail: images/PlayAlong_Still5.png
+thumbnail: images/PlayAlong_header.jpeg
 nav:
  - title: Cast & Crew
    link: "#credits"
  - title: Stills
    link: "#stills"
+ - title: VFX
+   link: "vfx/#content"
+   
  - title: Watch on CryptTV
    link: https://www.facebook.com/CryptTV/videos/1703342043239672/
    external: true
@@ -43,7 +46,7 @@ credits:
        name: Peter Owen Brook
 running-time: "00:30"
 budget: £50
-production: CryptTV and Imperial College TV
+production: Crypt TV and Imperial College TV
 stills:
  - link: images/PlayAlong_Still1.png
  - link: images/PlayAlong_Still3.png

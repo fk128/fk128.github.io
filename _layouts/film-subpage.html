@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head-film.html %}
+
+<body id="page-top">
+<!-- NAV -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="{{ '/short-films' | prepend: site.base}}"><i class="fa fa-arrow-left"></i></a>
+            <a class="navbar-brand" href="{{ '../' | prepend: site.base}}"><i class="fa fa-arrow-left"></i></a>
+            <a class="navbar-brand page-scroll" href="#page-top">{{ page.title }}</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" role="tablist">
+                {% for navlinks in page.nav %}
+  <li>
+    <a class="page-sroll" href="{{ navlinks.link }}" aria-controls="{{ navlinks.link }}" role="tab" data-toggle="tab" {% if navlinks.external %} {{'target="_blank"'}} {% endif%}>
+      {{ navlinks.title}}
+    </a>
+  </li>
+{% endfor %}
+               
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+  <!-- /NAV -->
+
+<header class="header" style="background-image: url('{{page.header-img}}'); background-repeat: no-repeat; background-size: cover;">
+<!-- <header class="header"> -->
+<!-- <img class="img-responsive" src="{{page.header-img}}"> -->
+<!--     <div class="header-content">
+
+        <div class="header-content-inner">
+
+        </div>
+    </div> -->
+</header> 
+<section class="main">
+    <a class="button arrow-wrap page-scroll"  href="#content">
+    <i style="color: white;" class="arrow fa fa-arrow-down fa-5x"></i>
+    <!-- <span class="arrow"></span> -->
+  </a>
+</section>
+<style type="text/css">
+
+html, body {
+  height:100%; /* allows us to size the header height based as a percent */
+}
+  .header {
+  height:calc(100% - 3em); /* subtract an amount of space for your arrow element */
+ 
+}
+
+.main {
+  width:100%;
+  position:relative;
+  background-color:#fff;
+}
+
+/* the wrapper element that will become the outer circle */
+.arrow-wrap {
+  text-align: center;
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:-10em;
+  margin-left:-5em;
+
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px #000;
+
+}
+
+/* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+.arrow {
+  position:relative;
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
+
+/* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+.arrow:after {
+  content:'';
+  position:absolute;
+  
+  -webkit-transform:rotate(360deg);/* added for better anti-aliasing on webkit browsers */
+}
+@-webkit-keyframes arrows {
+    0% { top:0; }
+    10% { top:12%; }
+    20% { top:0; }
+    30% { top:12%; }
+    40% { top:-12%; }
+    50% { top:12%; }
+    60% { top:0; }
+    70% { top:12%; }
+    80% { top:-12%; }
+    90% { top:12%; }
+    100% { top:0; }
+  }
+  
+  .arrow-wrap .arrow {
+    -webkit-animation: arrows 2.8s 0.4s;
+    -webkit-animation-delay: 3s;
+  }
+
+</style>
+
+  <section id="content">
+   <div class="container">
+  {{ content }}
+  </div>
+  </section>
+
+</body>
+
+
+{% include scripts-film.html %}
+<script type="text/javascript">
+  var gallery = $('#stills');
+gallery.poptrox({usePopupNav:true});
+
+//this is where we apply opacity to the arrow
+$(window).scroll( function(){
+
+  //get scroll position
+  var topWindow = $(window).scrollTop();
+  //multiply by 1.5 so the arrow will become transparent half-way up the page
+  var topWindow = topWindow * 1.5;
+  
+  //get height of window
+  var windowHeight = $(window).height();
+      
+  //set position as percentage of how far the user has scrolled 
+  var position = topWindow / windowHeight;
+  //invert the percentage
+  position = 1 - position;
+
+  //define arrow opacity as based on how far up the page the user has scrolled
+  //no scrolling = 1, half-way up the page = 0
+  $('.arrow-wrap').css('opacity', position);
+
+});
+
+</script>
+
+</html>
