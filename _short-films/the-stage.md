@@ -11,8 +11,6 @@ nav:
    link: "#credits"
  - title: Stills
    link: "#stills"
- - title: VFX
-   link: "vfx"
 credits:
  - section-title: CAST
    people: 

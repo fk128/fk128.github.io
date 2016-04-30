@@ -11,7 +11,7 @@ Use the slider to view before and after image comparisons of some shots.
 
 <section>
 <div class='twentytwenty-container'>
-  <img src='../images/playAlongVFX_still1_before'>
+  <img src='../images/playAlongVFX_still1_before.jpeg'>
   <img src='../images/playAlongVFX_still1_after.jpeg'>
 </div>
 </section>

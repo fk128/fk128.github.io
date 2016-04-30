@@ -12,7 +12,7 @@ nav:
  - title: Stills
    link: "#stills"
  - title: VFX
-   link: "vfx/#content"
+   link: "vfx"
    
  - title: Watch on CryptTV
    link: https://www.facebook.com/CryptTV/videos/1703342043239672/
