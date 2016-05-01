@@ -6,14 +6,16 @@ production-date: 2016-02
 synopsis: Alice in horrorland.
 header-img: images/PlayAlong_Still5.png
 thumbnail: images/PlayAlong_header.jpeg
+camera: Canon C100
+format: "16:9"
+location: U.K.
 nav:
  - title: Cast & Crew
    link: "#credits"
  - title: Stills
    link: "#stills"
  - title: VFX
-   link: "vfx"
-   
+   link: "vfx"  
  - title: Watch on CryptTV
    link: https://www.facebook.com/CryptTV/videos/1703342043239672/
    external: true

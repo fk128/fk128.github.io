@@ -5,6 +5,9 @@ description: Main page for short horror film, The Stage.
 production-year:   2016
 production-date: 2016-03
 synopsis: Shakespearian plays with a creepy twist.
+camera: Canon C100
+format: "16:9"
+location: U.K.
 header-img: images/header.jpeg
 thumbnail: images/header.jpeg
 nav:

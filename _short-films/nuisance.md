@@ -7,6 +7,9 @@ synopsis: A dark comedy about a sound engineer who is forced to record a flutist
 header-img: images/nuisance_still1.jpg
 thumbnail: images/nuisance_still1.jpg
 running-time: "05:00"
+camera: Canon 5D Mark II
+format: "16:9"
+location: U.K.
 budget: 4 pizzas
 production: Imperial College TV
 nav:

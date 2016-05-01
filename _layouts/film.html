@@ -52,22 +52,30 @@
 
 <section class="">
 	<div class="container">
-		<p> Synopsis: <strong>{{ page.synopsis }}</strong></p>
+	<p> Synopsis: <strong>{{ page.synopsis }}</strong></p>
   <p>{% if page.running-time %}<p>Running time: <strong>{{ page.running-time }}</strong></p>{% endif %}</p>
-   <p>{% if page.budget %}<p>Budget: <strong>{{ page.budget }}</strong></p>{% endif %}</p>
-   <p>{% if page.production %}<p>Production: <strong>{{ page.production }}</strong></p>{% endif %}</p>
+  <p>{% if page.budget %}<p>Budget: <strong>{{ page.budget }}</strong></p>{% endif %}</p>
+  <p>{% if page.production %}<p>Production: <strong>{{ page.production }}</strong></p>{% endif %}</p>
+  <p>{% if page.camera %}<p>Camera: <strong>{{ page.camera }}</strong></p>{% endif %}</p>
+  <p>{% if page.location %}<p>Location: <strong>{{ page.location }}</strong></p>{% endif %}</p>
 
 	</div>
 
 
 </section>
   <hr style="max-width:300px;">
+  {% assign pcontent = page.content | strip_newlines %}
+  {% if pcontent != ""  %}
   <section id="About">
    <div class="container">
-  {{ content }}
+
+    {{page.content}}
+ 
   </div>
   </section>
- <hr style="max-width:300px;">
+   <hr style="max-width:300px;">
+   {% endif %}
+
 
 <section id="credits">
     <div class="container">
