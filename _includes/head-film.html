@@ -3,9 +3,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    {% if page.description %}
+    <meta name="description" content="{{ page.description}}" />
+    <meta property="og:description" content="{{ page.description}}" />
+    {% endif %}
+    {% if page.author %}
+    <meta name="author" content="{{ page.author}}" />
+    {% endif %}
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    
+    <meta property="og:image" content="{{page.header-img | prepend: page.url | prepend: site.url}}" />
+     <meta property="og:url"   content="{{ page.url | prepend: site.url}}" />
     <title>{{ page.title }}</title>
 
     <!-- Bootstrap Core CSS -->

@@ -1,6 +1,7 @@
 ---
 layout: film
 title:  "The Stage"
+description: Main page for short horror film, The Stage.
 production-year:   2016
 production-date: 2016-03
 synopsis: Shakespearian plays with a creepy twist.

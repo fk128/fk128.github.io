@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Filmography
+description: Short film work
 nav: true
+header-img: uneventful/images/header_laurel.jpg
 nav-order: 5
 ---
 
