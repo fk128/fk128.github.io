@@ -1,6 +1,6 @@
 ---
 layout: film-subpage
-title:  "The stage - VFX"
+title:  "The Stage - VFX"
 description: VFX breakdown for short horror film, The Stage.
 header-img: ../images/the_stage_still13.png
 main-page: the-stage

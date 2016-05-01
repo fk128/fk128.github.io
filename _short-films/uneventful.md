@@ -4,7 +4,7 @@ title:  "Uneventful"
 redirect_from: "/uneventful-shortfilm/"
 production-year:   2015
 production-date: 2015-09
-camera: Canon C100
+camera: Canon C100 Mark II
 format: "16:9"
 location: U.K.
 synopsis: Silly, gory, and brutal, Uneventful is a dark comedy short film about a woman's "uneventful" weekend.

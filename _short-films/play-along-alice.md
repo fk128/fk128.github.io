@@ -1,12 +1,13 @@
 ---
 layout: film
 title:  "Play Along, Alice"
+alt-title: "Do it Again, Alice"
 production-year:   2016
 production-date: 2016-02
 synopsis: Alice in horrorland.
 header-img: images/PlayAlong_Still5.png
 thumbnail: images/PlayAlong_header.jpeg
-camera: Canon C100
+camera: Canon C100 Mark II
 format: "16:9"
 location: U.K.
 nav:
