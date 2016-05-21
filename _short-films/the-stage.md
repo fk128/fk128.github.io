@@ -17,6 +17,9 @@ nav:
    link: "#stills"
  - title: VFX
    link: "vfx"
+ - title: Watch on Crypt TV
+   link: https://www.facebook.com/CryptTV/videos/1732993423607867/
+   external: true
 credits:
  - section-title: CAST
    people: 
