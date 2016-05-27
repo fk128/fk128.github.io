@@ -1,7 +1,7 @@
 ---
 layout: film-subpage
 title:  "Uneventful - VFX"
-description: VFX breakdown for dark comedy short film, Uneventful.
+description: VFX breakdown for UNEVENTFUL, a dark comedy short film.
 header-img: ../images/uneventful_still_8.jpg
 main-page: uneventful
 nav:
@@ -25,18 +25,20 @@ Total number of VFX shots: __26__
 
 Use the slider to view before and after image comparisons of some shots.
 
-<section>
-<div class='twentytwenty-container'>
-  <img src='../images/uneventful_vfx_still3_before.jpeg'>
-  <img src='../images/uneventful_vfx_still3_after.jpeg'>
-</div>
-</section>
 
 <section>
 <div class='twentytwenty-container'>
   <img src='../images/uneventful_vfx_still2_before.jpeg'>
   <img src='../images/uneventful_vfx_still2_after.jpeg'>
 </div>
+</section>
+
+<section>
+<div class='twentytwenty-container'>
+  <img src='../images/uneventful_vfx_still3_before.jpeg'>
+  <img src='../images/uneventful_vfx_still3_after.jpeg'>
+</div>
+<p>Add dark circles under eyes.</p>
 </section>
 
 <section>
@@ -56,11 +58,13 @@ Use the slider to view before and after image comparisons of some shots.
   <img src='../images/uneventful_vfx_still6_before.jpeg'>
   <img src='../images/uneventful_vfx_still6_after.jpeg'>
 </div>
+<p>Add vase on far right corner.</p>
 </section>
 <section>
 <div class='twentytwenty-container'>
   <img src='../images/uneventful_vfx_still7_before.jpeg'>
   <img src='../images/uneventful_vfx_still7_after.jpeg'>
+  <p>Add baseball bat to far left.</p>
 </div>
 </section>
 <section>
@@ -68,6 +72,7 @@ Use the slider to view before and after image comparisons of some shots.
   <img src='../images/uneventful_vfx_still8_before.jpeg'>
   <img src='../images/uneventful_vfx_still8_after.jpeg'>
 </div>
+<p>Add blood on axe.</p>
 </section>
 <section>
 <div class='twentytwenty-container'>

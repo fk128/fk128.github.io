@@ -1,8 +1,8 @@
 ---
 layout: film-subpage
 title:  "The Stage - VFX"
-description: VFX breakdown for short horror film, The Stage.
-header-img: ../images/the_stage_still13.png
+description: VFX breakdown for THE STAGE, a short horror film.
+header-img: ../images/the_stage_still5.jpeg
 main-page: the-stage
 nav:
  - title: Cast & Crew
@@ -14,6 +14,9 @@ nav:
 
 
 ## VFX breakdown
+
+Total number of VFX shots: __8__
+
 Use the slider to view before and after image comparisons of some shots.
 
 <section>

@@ -2,6 +2,7 @@
 layout: film-subpage
 title:  "Play Along, Alice - VFX"
 header-img: ../images/PlayAlong_still20.png
+description: VFX breakdown for PLAY ALONG, ALICE, a short horror film.
 main-page: play-along-alice
 nav:
  - title: Cast & Crew
@@ -13,6 +14,9 @@ nav:
 
 
 ## VFX breakdown
+
+Total number of VFX shots: __7__
+
 Use the slider to view before and after image comparisons of some shots.
 
 <section>
