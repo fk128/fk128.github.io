@@ -17,6 +17,9 @@ nav:
    link: "#credits"
  - title: Stills
    link: "#stills"
+ - title: VFX
+   link: https://vimeo.com/126820851
+   external: true
  - title: Watch on Vimeo
    link: https://vimeo.com/125899794
    external: true
