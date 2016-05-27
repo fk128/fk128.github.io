@@ -15,7 +15,9 @@ nav:
    link: "#credits"
  - title: Stills
    link: "#stills"
- - title: Watch on CryptTV
+ - title: VFX
+   link: vfx
+ - title: Watch on Crypt TV
    link: https://www.facebook.com/CryptTV/videos/1691640131076530/
    external: true
 credits:
