@@ -4,6 +4,12 @@ title:  "The Stage - VFX"
 description: VFX breakdown for short horror film, The Stage.
 header-img: ../images/the_stage_still13.png
 main-page: the-stage
+nav:
+ - title: Cast & Crew
+   link: "../#credits"
+ - title: Watch on Crypt TV
+   link: https://www.facebook.com/CryptTV/videos/1732993423607867/
+   external: true
 ---
 
 

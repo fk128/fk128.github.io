@@ -26,7 +26,7 @@
             <ul class="nav navbar-nav navbar-right" role="tablist">
                 {% for navlinks in page.nav %}
   <li>
-    <a class="page-sroll" href="{{ navlinks.link }}" aria-controls="{{ navlinks.link }}" role="tab" data-toggle="tab" {% if navlinks.external %} {{'target="_blank"'}} {% endif%}>
+    <a class="" href="{{ navlinks.link }}"  {% if navlinks.external %} {{'target="_blank"'}} {% endif%}>
       {{ navlinks.title}}
     </a>
   </li>
