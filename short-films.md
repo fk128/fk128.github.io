@@ -23,8 +23,9 @@ Credits: director, director of photography, writer, editor, and visual effects c
       <h3 class="text-uppercase" style="margin-top: 3px;"><a href="{{ short-film.url }}">{{ short-film.title }}</a><span class=""> ({{ short-film.production-year }})</span></h3>
   {% if short-film.synopsis %}<p>Synopsis: <strong>{{ short-film.synopsis }}</strong></p>{% endif %}
   {% if short-film.running-time %}<p>Running time: <strong>{{ short-film.running-time }}</strong></p>{% endif %}
-   {% if short-film.budget %}<p>Budget: <strong>{{ short-film.budget }}</strong></p>{% endif %}
-   {% if short-film.production %}<p>Production: <strong>{{ short-film.production }}</strong></p>{% endif %}
+  {% if short-film.budget %}<p>Budget: <strong>{{ short-film.budget }}</strong></p>{% endif %}
+  {% if short-film.production %}<p>Production: <strong>{{ short-film.production }}</strong></p>{% endif %}
+  {% if short-film.alt-title %}<p>Alternative title: <strong>{{ short-film.alt-title }}</strong></p>{% endif %}
   </div>
   </div>
   <hr>
