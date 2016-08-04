@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+layout: blank
+---
+
 <meta charset="utf-8">
 <title>Do it Again, Alice - Short Film</title>
 <link rel="canonical" href="http://fk128.github.io/short-films/play-along-alice/">

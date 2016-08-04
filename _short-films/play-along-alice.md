@@ -2,6 +2,7 @@
 layout: film
 title:  "Play Along, Alice"
 alt-title: "Do it Again, Alice"
+description: Main page for short horror film DO IT AGAIN ALICE.
 production-year:   2016
 production-date: 2016-02
 synopsis: Alice in horrorland.
