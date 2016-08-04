@@ -4,12 +4,12 @@ title: Filmography
 description: List of short film work by Fahdi Kanavati
 nav: true
 header-imgs:
- - link: uneventful/images/uneventful_still2.jpg
- - link: play-along-alice/images/PlayAlong_Still13.png
- - link: play-along-alice/images/PlayAlong_Still9.png
- - link: the-stage/images/the_stage_still5.jpeg
- - link: a-favour/images/a_favour_still1.jpg
- - link: uneventful/images/uneventful_still5.jpg
+ - link: uneventful/images/uneventful_still2_thumb.png
+ - link: play-along-alice/images/PlayAlong_Still13_thumb.png
+ - link: play-along-alice/images/PlayAlong_Still9_thumb.png
+ - link: the-stage/images/the_stage_still5_thumb.png
+ - link: a-favour/images/a_favour_still1_thumb.png
+ - link: uneventful/images/uneventful_still5_thumb.png
 nav-order: 5
 ---
 
