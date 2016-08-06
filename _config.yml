@@ -7,7 +7,7 @@ url: http://fk128.github.io
 markdown: kramdown
 
 #permalink: pretty
-permalink: /:title/
+permalink: /:categories/:title/
 
 collections:
   short-films:

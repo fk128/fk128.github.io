@@ -21,9 +21,9 @@
         {% for spage in pages %}
         {% if spage.nav %}
         {% if page.url == spage.url%}
-          <a class="page-link active" href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a>
+          <a class="page-link active" title="{{ spage.title }}" href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a>
           {% else %}
-            <a class="page-link" href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a>
+            <a class="page-link" title="{{ spage.title }}" href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a>
             {% endif %}
           {% endif %}
         {% endfor %}
