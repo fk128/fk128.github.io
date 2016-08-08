@@ -1,77 +1,65 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:og="http://ogp.me/ns#"
-      xmlns:fb="https://www.facebook.com/2008/fbml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+{% include head.html %}
 
-  {% include head.html %}
-
-    <body>
-
-    {% include header.html %}
-
-
-<script src="{{ "/assets/js/unslider-min.js" | prepend: site.baseurl }}"></script>
-    
-<script>
-    jQuery(document).ready(function($) {
-      $('.my-slider').unslider({ animation: 'fade', autoplay: true, arrows: false, delay: 5000});
+<body>
+  {% include header.html %}
+  <script src="{{ " /assets/js/unslider-min.js " | prepend: site.baseurl }}"></script>
+  <script>
+  jQuery(document).ready(function($) {
+    $('.my-slider').unslider({
+      animation: 'fade',
+      autoplay: true,
+      arrows: false,
+      delay: 5000
     });
+  });
   </script>
-
-<div id="fouc">
-
-
-  <div class="my-slider ">
-  <ul>
-
- {% for still in page.header-imgs %}
-    {% cycle 'add rows': '<li><div class="row no-gutter">', nil, nil %}
-     {% cycle 'add col': '<div class="col-sm-4 col-xs-6">', '<div class="col-sm-4 col-xs-6">', '<div class="col-sm-4 hidden-xs">' %}
-
-        <img src="{{ still.link }}" class="img-responsive">
-         {% cycle 'close col': '</div>', '</div>', '</div>' %}
-    {% cycle 'close rows': nil, nil, '</div></li>' %}
-{% endfor %}
-
-  </ul>
-</div>
-</div>
-
-
-    <div class="page-content fadeIn animated">
-      <div class="container">
-       <header class="post-header">
-    <h1>{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
-      </div>
-       <div class="push"></div>
+  <div id="fouc" class="slider-container">
+    <div class="my-slider " style="max-width:1920px">
+      <ul>
+        {% for still in page.header-imgs %} {% cycle 'add rows': '
+        <li>
+          <div class="row no-gutter">', nil, nil %} {% cycle 'add col': '
+            <div class="col-sm-4 col-xs-6">', '
+              <div class="col-sm-4 col-xs-6">', '
+                <div class="col-sm-4 hidden-xs">' %}
+                  <img src="{{ still.link }}" class="img-responsive"> {% cycle 'close col': '</div>', '</div>', '</div>' %} {% cycle 'close rows': nil, nil, '</div>
+        </li>' %} {% endfor %}
+      </ul>
     </div>
-
-    {% include footer.html %}
-
-    </body>
-<style type="text/css">.page-content {
+  </div>
+  <div class="page-content fadeIn animated">
+    <div class="container">
+      <header class="post-header">
+        <h1>{{ page.title }}</h1>
+      </header>
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </div>
+    <div class="push"></div>
+  </div>
+  {% include footer.html %}
+</body>
+<style type="text/css">
+.page-content {
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0s;
-
 }
+
 .unslider .unslider-fade ul li.unslider-active {
-    position: relative;
+  position: relative;
+}
+
+.slider-container {
+  display: block;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 </style>
 <script type="text/javascript">
- document.getElementById("fouc").style.display="block";
+document.getElementById("fouc").style.display = "block";
 </script>
 
 </html>
-
-
-
-
-
-

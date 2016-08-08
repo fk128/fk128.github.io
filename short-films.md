@@ -6,7 +6,7 @@ nav: true
 header-imgs:
  - link: uneventful/images/uneventful_still2_thumb.png
  - link: play-along-alice/images/PlayAlong_Still13_thumb.png
- - link: play-along-alice/images/PlayAlong_Still9_thumb.png
+ - link: play-along-alice/images/PlayAlong_Still3_thumb.png
  - link: the-stage/images/the_stage_still5_thumb.png
  - link: a-favour/images/a_favour_still1_thumb.png
  - link: uneventful/images/uneventful_still5_thumb.png

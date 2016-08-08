@@ -123,9 +123,5 @@ Use the slider to view before and after image comparisons of some shots.
 </div>
 </section>
 <section>
-<div class='twentytwenty-container'>
-  <img src='../images/uneventful_vfx_still18_before.jpeg'>
-  <img src='../images/uneventful_vfx_still18_after.jpeg'>
-</div>
 </section>
 
