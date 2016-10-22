@@ -2,7 +2,7 @@
 layout: page
 title: Research
 nav: true
-nav-order: 4
+nav-order: 1
 ---
 
 ## Research Interests
