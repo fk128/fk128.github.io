@@ -59,3 +59,30 @@ stills:
  - link: images/PlayAlong_Still14.png
  - link: images/PlayAlong_Still18.png
 ---
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Movie",
+  "name" : "Again, Alice",
+  "image" : "https://fk128.github.io/short-films/play-along-alice/images/PlayAlong_Still5.png",
+  "actor" : [ {
+    "@type" : "Person",
+    "name" : "Lizzie Riach"
+  }, {
+    "@type" : "Person",
+    "name" : "Conall O'Neill"
+  }, {
+    "@type" : "Person",
+    "name" : "Steven Kingaby"
+  }, {
+    "@type" : "Person",
+    "name" : "Lucy Lan Luo"
+  } ],
+  "director" : {
+    "@type" : "Person",
+    "name" : "Fahdi Kanavati"
+  }
+}
+</script>

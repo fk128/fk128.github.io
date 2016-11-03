@@ -50,3 +50,26 @@ stills:
  - link: images/a_favour_still6.jpg
  - link: images/a_favour_still7.jpg
 ---
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Movie",
+  "name" : "A Favour",
+  "image" : "https://fk128.github.io/short-films/a-favour/images/a_favour_still4.jpg",
+  "actor" : [ {
+    "@type" : "Person",
+    "name" : "Steven Kingaby"
+  }, {
+    "@type" : "Person",
+    "name" : "Tiberiu Chis"
+  }, {
+    "@type" : "Person",
+    "name" : "Benedict O'Malley"
+  } ],
+  "director" : {
+    "@type" : "Person",
+    "name" : "Fahdi Kanavati"
+  }
+}
+</script>
