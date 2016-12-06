@@ -8,8 +8,8 @@ camera: Canon C100 Mark II
 format: "16:9"
 location: U.K.
 synopsis: Silly, gory, and brutal, Uneventful is a dark comedy short film about a woman's "uneventful" weekend.
-header-img: images/header_laurel.jpg
-thumbnail: images/header_laurel.jpg
+header-img: images/uneventful_header_laurel.jpg
+thumbnail: images/uneventful_header_laurel.jpg
 nav:
  - title: Cast & Crew
    link: "#credits"
@@ -61,6 +61,7 @@ stills:
  - link: images/uneventful_still7.jpg
 ---
 
+- Official Selection at London Short Film Festival 2017. 
 - Official Selection at BFI Future Short Film Festival 2016. Nominated in Best Producer Category.
 - Official Selection at Plymouth Film Festival 2016. Nominated for Roger Deakins Award 2016.
 

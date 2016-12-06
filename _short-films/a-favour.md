@@ -8,8 +8,8 @@ synopsis: an absurd dark comedy.
 camera: Canon C100 Mark II
 format: "16:9"
 location: U.K.
-header-img: images/a_favour_still4.jpg
-thumbnail: images/a_favour_still4.jpg
+header-img: images/a_favour_header.jpg
+thumbnail: images/a_favour_header.jpg
 nav:
  - title: Cast & Crew
    link: "#credits"
@@ -50,6 +50,8 @@ stills:
  - link: images/a_favour_still6.jpg
  - link: images/a_favour_still7.jpg
 ---
+
+- Official Selection at London Short Film Festival 2017. 
 
 <script type="application/ld+json">
 {
