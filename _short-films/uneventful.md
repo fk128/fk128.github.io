@@ -61,6 +61,7 @@ stills:
  - link: images/uneventful_still7.jpg
 ---
 
+- Screened at the 28th International Filmfest Emden-Norderney as part of the London Shorts Special 2017.
 - Official Selection at London Short Film Festival 2017. 
 - Official Selection at BFI Future Short Film Festival 2016. Nominated in Best Producer Category.
 - Official Selection at Plymouth Film Festival 2016. Nominated for Roger Deakins Award 2016.
@@ -74,6 +75,7 @@ stills:
   "name": "Uneventful",
   "url": "http://www.imdb.com/title/tt5371734/",
   "description": "Silly, dark and brutal, Uneventful is a super-short comedy about a woman's 'uneventful' weekend.",
+  "duration": "0:02:42",
   "releasedEvent": {
     "@type": "PublicationEvent",
     "startDate": "2015-11-01",
