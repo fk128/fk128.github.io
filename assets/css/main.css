@@ -70,6 +70,7 @@ a.active { color: #000; }
 .site-nav {
   float: right;
   line-height: 56px;
+  z-index: 500;
 }
 
 .site-nav .menu-icon { display: none; }
@@ -357,7 +358,7 @@ a.active { color: #000; }
 
   .site-nav {
     position: fixed;
-    z-index: 10;
+    z-index: 500;
     top: 14px; right: 8px;
     background-color: white;
     -webkit-border-radius: 5px;
@@ -447,4 +448,13 @@ a.active { color: #000; }
     text-align: center;
     margin: 70px 0;
     max-height: 200px;
+}
+@media screen and (max-width: 600px) {
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 5px;
+    font-size: 12px;
+    line-height: 20px;
+}
 }

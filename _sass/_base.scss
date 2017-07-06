@@ -350,3 +350,13 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+
+@media screen and (max-width: 600px) {
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+}
