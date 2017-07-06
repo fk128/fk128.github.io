@@ -15,7 +15,7 @@ nav-order: 5
 
 Credits: director, director of photography, writer, editor, and visual effects compositor, among other things.
 
-<h2> Short Films</h2>
+
 {% assign short-films = site.short-films | sort: 'production-date' | reverse %}
 <div class="row">
 {% for short-film in short-films %}
@@ -36,18 +36,26 @@ Credits: director, director of photography, writer, editor, and visual effects c
   </div>
   </div>
 </div>
+
   {% endif %}
 
 {% endfor %}
   </div>
 
 <style>
+
   .panel-content {
     padding-bottom: 20px;
      background-color: #f9f9f9;
   }
   .panel-outer {
     margin-top: 10px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+  
 
   }
   .panel-content h3 {
@@ -58,3 +66,5 @@ Credits: director, director of photography, writer, editor, and visual effects c
     font-size:14px;
   }
 </style>
+
+

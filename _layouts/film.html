@@ -19,7 +19,7 @@
             </button>
 
             <a class="navbar-brand" href="{{ '/short-films' | prepend: site.base}}"><i class="fa fa-arrow-left"></i></a>
-            <a class="navbar-brand page-scroll" href="#page-top">{{ page.title }} - Short Film</a>
+            <a class="navbar-brand page-scroll" href="#page-top">{{ page.title }}{% if page.override_title == null %} - Short Film ({{ page.production-year }}) {% endif %}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
