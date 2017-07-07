@@ -15,6 +15,7 @@ nav-order: 3
             <i class="fa fa-lg fa-flickr" aria-hidden="true"></i>
         </a></p>
         <br>
+        <div id ="loading"><h2 class="text-center">Loading...</h2></div>
 <div class="grid">
 
            <div class="grid-sizer"></div>
@@ -170,7 +171,11 @@ var $grid = $('.grid').masonry({
    transitionDuration: 0
 });
 // layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
+$grid.imagesLoaded(function(){
+ 
+  $('#loading').hide();
+  /* other stuff... */
+}).progress( function() {
  $grid.masonry('layout');
 });
    
