@@ -27,7 +27,7 @@ credits:
      - role: Filmed, Edited and VFX by
        name: Fahdi Kanavati
      - role: Intro Music
-       name: Cylink <a href="https://soundcloud.com/sanha-lee-4"><span class="glyphicon glyphicon-music"></span></a>
+       name: Cylink <a href="https://soundcloud.com/cylinkmusic"><span class="glyphicon glyphicon-music"></span></a>
 stills:
  - link: images/ea_shoulders.jpg
  - link: images/ea_arms.jpg

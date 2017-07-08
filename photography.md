@@ -15,7 +15,7 @@ nav-order: 3
             <i class="fa fa-lg fa-flickr" aria-hidden="true"></i>
         </a></p>
         <br>
-        <div id ="loading"><h2 class="text-center">Loading...</h2></div>
+        <div id ="loading"><img src="/assets/loading_icon.gif" style="  display: block; margin: auto; width: 10%;"><h3 class="text-center">Loading...</h3></div>
 <div class="grid">
 
            <div class="grid-sizer"></div>

@@ -39,7 +39,7 @@ credits:
      - role: co-Produced by
        name: Peter Owen Brook
      - role: Music by
-       name: Cylink <a href="https://soundcloud.com/sanha-lee-4"><span class="glyphicon glyphicon-music"></span></a>
+       name: Cylink <a href="https://soundcloud.com/cylinkmusic"><span class="glyphicon glyphicon-music"></span></a>
      - role: Director of Photography </br>and Visual Effects
        name: Fahdi Kanavati
      - role: 1st AD

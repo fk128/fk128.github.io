@@ -9,7 +9,7 @@ format: "16:9"
 location: U.K.
 synopsis: Silly, gory, and brutal, Uneventful is a dark comedy short film about a woman's "uneventful" weekend.
 header-img: images/uneventful_header_laurel.jpg
-thumbnail: images/uneventful_header_laurel.jpg
+thumbnail: images/uneventful_header_laurel_thumb.jpg
 nav:
  - title: Cast & Crew
    link: "#credits"
@@ -42,7 +42,7 @@ credits:
      - role: Screenplay By
        name: Fahdi Kanavati </br> Peter Owen Brook
      - role: Music by
-       name: Cylink <a href="https://soundcloud.com/sanha-lee-4"><span class="glyphicon glyphicon-music"></span></a>
+       name: Cylink <a href="https://soundcloud.com/cylinkmusic"><span class="glyphicon glyphicon-music"></span></a>
      - role: Director of Photography </br>and Visual Effects
        name: Fahdi Kanavati
      - role: 1st Assistant Director

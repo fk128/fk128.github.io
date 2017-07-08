@@ -6,7 +6,7 @@ description: Fahdi Kanavati's Filmography
 nav: true
 header-imgs:
  - link: /short-films/uneventful/images/uneventful_still2_thumb.png
- - link: /short-films/uneventful/images/uneventful_header_laurel.jpg
+ - link: /short-films/uneventful/images/uneventful_header_laurel_thumb.jpg
  - link: /short-films/play-along-alice/images/PlayAlong_Still13_thumb.png
  - link: /short-films/the-stage/images/the_stage_still5_thumb.png
  - link: /short-films/a-favour/images/a_favour_still1_thumb.png
