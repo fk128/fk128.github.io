@@ -3,13 +3,16 @@ layout: base
 title: Photography
 description: Photography
 cover-text: Portraits
-cover-image: /images/portraits/people/r-large.jpg
+cover-image: /images/portraits/banner.jpg
 nav: true
 nav-order: 3
 ---
 
-
-<div class="coverphoto" style="background-image:url({{page.cover-image}})"><h1 class="covertext">{{ page.cover-text}}</h1></div>
+<div class="cover-wrapper">
+  <img class="img-responsive" src="{{page.cover-image}}">
+  <h1 class="covertext">{{ page.cover-text}}</h1>
+</div>
+<!-- <div class="coverphoto" style="background-image:url({{page.cover-image}})"><div class="covertext">{{ page.cover-text}}</div></div> -->
 <div class="page-content container">
  <p class="text-center">More on <a href="https://www.flickr.com/photos/{{ site.flickr_username }}/" target="_blank">Flickr
             <i class="fa fa-lg fa-flickr" aria-hidden="true"></i>
@@ -39,7 +42,19 @@ nav-order: 3
 </div>
 
 <style>
+
+.cover-wrapper {
+  position: relative;
+  width: 100%;
+}
     
+
+@media only screen 
+and (max-width : 800px) {
+ .grid-item { width: 25%; }
+}
+
+
     .covertext {
          position: absolute;
   top: 50%;
@@ -47,16 +62,26 @@ nav-order: 3
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
+      margin-top: 0px;
+    margin-bottom: 0px;
+      /*font-size: 42px;*/
+      /*font-weight: 500;*/
+    /*line-height: 1.1;*/
     }
     
     .coverphoto {
-    height: 220px;
+    height: 100%;
+    /*width: 100%;*/
+
+
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
-  
-    background-size: 100%;
+    height: 0;
+    padding-top: 33.33%;
     /*background-attachment: scroll;*/
-    background-position: 50% 45%;
-    position: relative;
+    /*background-position: 50% 45%;*/
+    /*position: relative;*/
 }
     
     .grid-item { width: 100%; }
