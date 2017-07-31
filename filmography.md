@@ -27,7 +27,7 @@ Credits: director, director of photography, writer, editor, and visual effects c
 <div class="image">
     <a href="{{ short-film.url }}">
     {% if short-film.video-thumbnail %}
-<video class="img-responsive" autoplay loop poster="{{ short-film.url }}/{{ short-film.thumbnail }}">
+<video class="img-responsive"  muted autoplay loop poster="{{ short-film.url }}/{{ short-film.thumbnail }}">
   <source src="{{ short-film.url }}/{{short-film.video-thumbnail}}.mp4" type="video/mp4" />
   <source src="{{ short-film.url }}/{{short-film.video-thumbnail}}.ogv" type="video/ogg" />
     <source src="{{ short-film.url }}/{{short-film.video-thumbnail}}.webm" type="video/webm" />
@@ -78,5 +78,7 @@ Credits: director, director of photography, writer, editor, and visual effects c
     font-size:14px;
   }
 </style>
+
+
 
 
