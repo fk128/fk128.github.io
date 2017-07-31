@@ -10,6 +10,7 @@ format: "16:9"
 location: U.K.
 header-img: images/exercise_anatomy_still001.jpg
 thumbnail: images/exercise_anatomy_still001.jpg
+video-thumbnail: video/pbea_loop
 nav:
  - title: Cast & Crew
    link: "#credits"

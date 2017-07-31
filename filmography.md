@@ -25,7 +25,18 @@ Credits: director, director of photography, writer, editor, and visual effects c
 <div class="panel-inner">
 
 <div class="image">
-    <a href="{{ short-film.url }}"><img class="img-responsive" src="{{ short-film.url }}/{{ short-film.thumbnail }}"></a>
+    <a href="{{ short-film.url }}">
+    {% if short-film.video-thumbnail %}
+<video class="img-responsive" autoplay loop poster="{{ short-film.url }}/{{ short-film.thumbnail }}">
+  <source src="{{ short-film.url }}/{{short-film.video-thumbnail}}.mp4" type="video/mp4" />
+  <source src="{{ short-film.url }}/{{short-film.video-thumbnail}}.ogv" type="video/ogg" />
+    <source src="{{ short-film.url }}/{{short-film.video-thumbnail}}.webm" type="video/webm" />
+  Your browser does not support the video tag.
+</video>
+{% else %}
+ <img class="img-responsive" src="{{ short-film.url }}/{{ short-film.thumbnail }}">
+{% endif %}
+   </a>
   </div>
     <div class="col-xs-12 panel-content">
       <h3 class="text-uppercase" style="margin-top: 3px;"><a href="{{ short-film.url }}">{{ short-film.title }}</a><span class=""> ({{ short-film.production-year }})</span></h3>
